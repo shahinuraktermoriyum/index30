@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.navbar-brand{
+    width: 40%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.disabled{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+}
+.navbar{
+    margin-top: 2rem;
+    padding-top: 20px;
+}
+
+
+
+/* hero */
+
+
+.card{
+    border: 1px solid rgb(61, 61, 61);
+    box-shadow: 0px 5px 10px;
+}
+
+.card:hover{
+    border: 1px solid rgb(61, 61, 61);
+    box-shadow: 0px 5px 10px;
+    transform: scale(1.1);
+    transition: all ease .5s;
+}
+
+
+
+#carouselExampleIndicators img{
+height: 40rem;
+background-size: cover;
+}
+
+/* 
+heading */
+
+
+.heading{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(41, 116, 255);
+}
+
+.col-3 img{
+    height: 5rem;
+    padding-top: 2rem;
+}
+
+.col-6 img:hover{
+    transform: scale(0.9);
+    transition: all ease .5s;
+   
+}
+
+
+
+
+.col-3{
+   
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+
+/* next */
+
+
+
+.col-6 img{
+    height: 35rem;
+    width: 38rem;
+}
+.col-6 p{
+    text-align: center;
+   font-size: 1.1rem;
+}
+
+
+.background{
+    background: linear-gradient(rgb(248, 207, 251), rgb(233, 253, 253),rgb(202, 202, 255));
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+.col-6 h2{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.col-6 .btn button{
+
+   text-align: center;
+   margin-left: 13rem;
+   margin-top: 1rem;
+   height: 3rem;
+   width: 15rem;
+   border-radius: 20px;
+   font-weight: bold;
+   background: linear-gradient(  rgb(137, 137, 253),skyblue);
+}
+
+
+
+
+.col-6 .btn button:hover{
+    background: linear-gradient( rgb(244, 252, 255), rgb(63, 63, 77));
+}
+
+
+/* next */
+
+
+#gallary{
+    width: 1400px;
+    margin: auto;
+    top: 0;
+}
+
+/* next */
+
+form{
+    margin: 5rem;
+    font-weight: bold;
+}
